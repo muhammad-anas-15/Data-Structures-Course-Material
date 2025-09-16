@@ -1,0 +1,60 @@
+Heap Data Structure:
+
+     *  A Heap is a complete binary tree data structure.
+     *  Heaps are usually used to implement priority queues.
+     * It is implemented using array ADT.
+ 
+ 1) Max Heap:
+                          * The parent node is greater then both of it's child.
+
+ 1) Min Heap:
+                          * The parent node is less then both of it's child.
+
+1) Necessary Functions for Heap:
+
+1) extractMax(): 
+                              This function will remove and return the maximum element (root) of the heap and reheapify the heap to maintain the heap property.
+
+2) delete(): 
+                               This function will delete a specific element at a given index, and then reheapify the heap.
+
+3)heapify(): 
+                               This function is useful for maintaining the heap property when given an index of a non-leaf node. It's used internally by the extractMax() and delete() functions.
+
+4) getMax(): 
+                               This function returns the maximum element (the root of the heap) without removing it.
+
+5) isEmpty(): 
+                                A helper function to check if the heap is empty.
+
+6) getSize(): 
+                               A helper function to return the current size of the heap.
+
+2) Explanation of New Functions:
+
+1) getMax():
+                       Returns the maximum element (root) of the heap. If the heap is empty, it returns -1.
+
+2) extractMax():
+                              Removes and returns the maximum element (the root).
+                              Replaces the root with the last element and reheapifies the heap to maintain the heap property.
+
+3) deleteAt(int index):
+                                          Deletes an element at a specific index in the heap.
+                                          It replaces the element with the last element and reheapifies the heap starting from the index.
+
+4) heapify(int index):
+                                        This is a helper function to maintain the max-heap property. It checks the left and right child and ensures that the largest element is at the root of the subtree, 
+                                        recursively calling itself if necessary.
+5) isEmpty():
+                          Returns true if the heap is empty, otherwise false.
+
+6)getSize():
+                          Returns the current size of the heap.
+
+ Deletion in Heap:
+				  * If nodes are removed one by one from a max-heap, the elements are removed in descending order.
+				  * If nodes are removed one by one from a min-heap, the elements are removed in ascending order.
+			  
+
+   

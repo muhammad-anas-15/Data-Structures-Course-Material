@@ -1,0 +1,25 @@
+Topics of Sessional 1:
+ 
+1 - Array
+2 - List
+3 - Linked List
+
+Topics of Sessional 2:
+
+1 - Stack
+2 - Queue
+3 - Tree
+                i) Binary Tree
+               ii) Binary Search Tree
+
+
+Topics after sessional 2:
+
+ 1 - AVL Tree
+ 2 - Uses of Binary Tree
+                                           i) Expression Tree
+					  ii) Huffman Encoding
+ 3 - Threaded BT
+ 4 - Heap
+ 5 - Hashing 
+
